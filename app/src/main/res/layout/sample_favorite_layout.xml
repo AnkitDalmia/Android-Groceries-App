@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+
+        android:id="@+id/circularImageView2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/sample_favorite_layout_bg"
+        android:src="@drawable/shanker_logo"
+        app:civ_border_color="@color/colorFirst"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#3f51b5"
+        app:civ_shadow_radius="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/favorite_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/cardview_img"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="Vegetables  Fruits"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circularImageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circularImageView2"
+        app:layout_constraintTop_toTopOf="@+id/circularImageView2"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/favorite_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/cardview_img"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="15kg"
+        android:textColor="#9A9A9A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circularImageView2"
+        app:layout_constraintEnd_toEndOf="@+id/favorite_title"
+        app:layout_constraintStart_toStartOf="@+id/favorite_title"
+        app:layout_constraintTop_toBottomOf="@+id/favorite_title"
+        app:layout_constraintVertical_bias=".1"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_toEndOf="@+id/cardview_img"
+        android:drawableRight="@drawable/ic_shopping_bag"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="Add To Cart "
+        android:textColor="@color/colorFirst"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circularImageView2"
+        app:layout_constraintEnd_toEndOf="@+id/favorite_title"
+        app:layout_constraintStart_toStartOf="@+id/favorite_title"
+        app:layout_constraintTop_toBottomOf="@+id/favorite_product_quantity" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

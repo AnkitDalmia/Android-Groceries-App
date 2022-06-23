@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593942242030",
+    "firebase_url": "https://shanker-delivery.firebaseio.com",
+    "project_id": "shanker-delivery",
+    "storage_bucket": "shanker-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593942242030:android:5300f2a3b34323378c09ff",
+        "android_client_info": {
+          "package_name": "com.addevelopment.shankerdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593942242030-t1c78hi4l7pd6b7td3djr6hn9kb6fd2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAgwfx7i2SCnNIojR4yaWny7JLcD6y3LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593942242030-t1c78hi4l7pd6b7td3djr6hn9kb6fd2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

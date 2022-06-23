@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/watchBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/welcome" />
+
+    <ImageView
+        android:id="@+id/watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/watch"
+        app:layout_constraintBottom_toBottomOf="@+id/watchBG"
+        app:layout_constraintEnd_toEndOf="@+id/watchBG"
+        app:layout_constraintStart_toStartOf="@+id/watchBG"
+        app:layout_constraintTop_toTopOf="@+id/watchBG"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watchBG">
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/butn_bg"
+            android:text="@string/login"
+            android:onClick="openLogin"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/butn_bg"
+            android:text="@string/register_now"
+            android:onClick="openRegister"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/display_social_heading"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttons_layout" />
+
+
+    <ImageView
+        android:id="@+id/facebook_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/facebook1"
+        app:layout_constraintStart_toStartOf="@+id/view_text"
+        app:layout_constraintTop_toBottomOf="@+id/view_text"
+        android:contentDescription="@string/facebook_img" />
+
+    <ImageView
+        android:id="@+id/google_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/google_plus1"
+        app:layout_constraintEnd_toEndOf="@+id/view_text"
+        app:layout_constraintTop_toBottomOf="@+id/view_text"
+        android:contentDescription="@string/google" />
+
+    <ImageView
+        android:id="@+id/insta_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/insta1"
+        app:layout_constraintEnd_toStartOf="@+id/google_btn"
+        app:layout_constraintStart_toEndOf="@+id/facebook_btn"
+        app:layout_constraintTop_toBottomOf="@+id/view_text"
+        android:contentDescription="@string/instagram" />
+
+    <TextView
+        android:id="@+id/tv_phone_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:text="Or Use Phone Number For Register"
+        android:textColorLink="#FF9E80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insta_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Shanker Delivery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: login activity -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo">TODO</string>
+    <string name="login">LOGIN</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="display_social_heading">Now! Quick Login Use Social ID</string>
+    <string name="facebook_img">Facebook</string>
+    <string name="google">Google</string>
+    <string name="instagram">Instagram</string>
+
+    <!-- TODO: login_page Activity -->
+    <string name="back">Back</string>
+    <string name="shankerlogo">ShankerLogo</string>
+    <string name="title">Hello</string>
+    <string name="sub_title">Sign into your Account</string>
+    <string name="email_box_hint">Email Id*</string>
+    <string name="password_hint">Password*</string>
+    <string name="forget_your_password">Forget Your Password?</string>
+    <string name="social_media_display">or Login using Social Media</string>
+    <string name="does_not_have_account">Don\'t have an account? Register Now</string>
+
+    <!-- TODO: Register page Activity -->
+    <string name="user_name">User Name*</string>
+    <string name="i_read_and_agree_terms_condition"><![CDATA[I Read and Agree Terms & Condition]]></string>
+    <string name="create_account_heading">Create Account</string>
+    <string name="social_media_display_signup">or Register using Social Media</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="please_wait">Please Wait.....</string>
+
+    <!-- TODO: Menu Item Title Name -->
+    <string name="bottom_home">Home</string>
+    <string name="bottom_cart">Cart</string>
+    <string name="bottom_favourite">Like</string>
+
+    <string name="openNaviDrawer">Navigation Drawer Open</string>
+    <string name="closeNaviDrawer">Navigation Drawer Close</string>
+
+</resources>
